@@ -1,0 +1,10 @@
+import { createStore, compose, applyMiddleware } from "redux";
+import todos from './reducers/todos'
+const composer = __DEV__
+  ? compose(
+    applyMiddleware(...[]),
+    console.tron.createEnhancer(),
+  )
+  : applyMiddleware(...[])
+const store = createStore(todos);
+export default store;
