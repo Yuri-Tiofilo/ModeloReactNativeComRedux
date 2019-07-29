@@ -4,10 +4,11 @@ import { View, Text } from 'react-native';
 import { Provider } from 'react-redux';
 import store from './store';
 import Routes from './routes';
+import {setNavigator} from './services/navigation'
 const App = () => {
   return (
     <Provider store={store}>
-      <Routes />
+      <Routes ref={setNavigator}/>
     </Provider>
   );
 };
