@@ -18,9 +18,15 @@
   "rules": {
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
-    "quotes": ["off", "double"],
+    "quotes": ["none", "double"],
     "semi": ["error", "always"],
     "prettier/prettier": "error"
   },
-  "ignore": ["react-native"]
+  "ignore": ["react-native"],
+  "settings": {
+    "import/resolver": {
+      "babel-plugin-root-import": {},
+      "react-native": {}
+    }
+  }
 }
