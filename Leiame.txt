@@ -192,6 +192,9 @@ Preducks
 Axure // InVision
   Cores
     https://pigment.shapefactory.co/
+  Resolução
+    1000 largura x 1100 altura pixels
+  UILab - Cursos
 
 
 	
