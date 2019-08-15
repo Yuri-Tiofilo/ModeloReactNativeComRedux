@@ -182,7 +182,9 @@ git pull "apartir de onde" "para onde"
 git pull origin master
 
 // realizando copia clicando em fork
-
+//Iniciar o git ja criado
+git remote add origin 'Link do repositorio'
+git push -u origin master
 		
 	
 	
