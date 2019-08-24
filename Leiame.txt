@@ -211,3 +211,5 @@ iniciando docker
 docker start database
 
 docker log ~Nome do container~
+consertar todos arquivos eslint
+yarn eslint --fix src --ext .js
