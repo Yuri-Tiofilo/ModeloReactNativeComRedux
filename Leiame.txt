@@ -196,5 +196,18 @@ Axure // InVision
     1000 largura x 1100 altura pixels
   UILab - Cursos
 
+#===============Utilizando Docker
 
-	
+criando container com o banco de dados postgree
+docker run --name database -e POSTGRES_PASSWORD=102030 -p 5432:5432 -d postgres
+listando os containers que estão executando
+docker ps 
+parar o container
+docker stop database
+listando todos containers da sua maquina
+dcoker ps -a
+iniciando docker
+            ~"Nome do container"
+docker start database
+
+docker log ~Nome do container~
